@@ -1,0 +1,15 @@
+.App-main {
+
+}
+
+.App-header {
+  height: 2rem;
+  background-color: #282c34;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App__JourneyMap {
+  height: calc(100vh - 2rem);
+}
