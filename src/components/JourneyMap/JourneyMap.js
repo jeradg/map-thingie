@@ -18,7 +18,7 @@ class JourneyMap extends Component {
       // Important! Always set the container height explicitly
       <div className={`JourneyMap ${this.props.className}`}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.MAP_THINGIE_GOOGLE_MAPS_API_KEY }}
+          bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
